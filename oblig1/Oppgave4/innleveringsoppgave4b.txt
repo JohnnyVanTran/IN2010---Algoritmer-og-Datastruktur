@@ -1,0 +1,13 @@
+
+
+Psudokode
+
+Input(max); max bestemmer størrelsen på heap
+output() balansert heap
+
+    leggTil(x); x er verdien du skal legge til heap-arrayet;
+    size += 1;
+    sjekker samtidig om forelder noden er større. hvis den er det
+    
+    bytt(x,y); x og y er index og du skal bytte x med y for å
+    balansere heapen.

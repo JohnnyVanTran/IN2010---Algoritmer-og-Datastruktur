@@ -1,0 +1,23 @@
+
+
+Psudokode:
+
+Input(Array): putter inn et sortert Array a
+output: Lage en ny array slik at hvis man skulle lage et binært tre
+        ville den vært balanser
+
+    lagNyArray(l, Array.length - 1); l er første index i Array.
+                        Array.length er høyeste index i Array.
+    
+    Kjører et binært søk og for hver index kjører du rekursiv funksjon
+    for å få riktig rekkefølge.
+
+    hentVenstre(l, m); l er laveste index, m index til forrige index funnet
+                        (l+m)/2 gir neste. Dette er et binært søk for neste
+                        barnet til venstret.
+    
+    hentHoyre(m,h); m er index til forrige index funnet, h index til høyeste
+
+                    if variablene skulle være like eller krysse hverandere
+                    return;
+
